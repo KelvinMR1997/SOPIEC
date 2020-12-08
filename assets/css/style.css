@@ -1,0 +1,477 @@
+/*==============================================
+    GENERAL  STYLES    
+    =============================================*/
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#wrapper {
+  width: 100%;
+  margin-top: 50px;
+}
+
+#page-wrapper {
+  padding: 15px 15px;
+  min-height: 600px;
+  background: #f3f3f3;
+}
+#page-inner {
+  width: 100%;
+  margin: 10px 20px 10px 0px;
+  background-color: #fff !important;
+  padding: 10px;
+  min-height: 1200px;
+}
+
+.text-center {
+  text-align: center;
+}
+.user-image-back {
+  background-color: #8b7bff;
+}
+h5,
+.h5 {
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+/*==============================================
+    MENU STYLES    
+    =============================================*/
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #06f;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #06f;
+}
+.arrow {
+  float: right;
+}
+
+.fa.arrow:before {
+  content: "\f104";
+}
+
+.active > a > .fa.arrow:before {
+  content: "\f107";
+}
+
+.nav-second-level li,
+.nav-third-level li {
+  border-bottom: none !important;
+}
+
+.nav-second-level li a {
+  padding-left: 37px;
+}
+
+.nav-third-level li a {
+  padding-left: 55px;
+}
+.sidebar-collapse,
+.sidebar-collapse .nav {
+  background: none;
+}
+.sidebar-collapse .nav {
+  padding: 0;
+}
+.sidebar-collapse .nav > li > a {
+  background: #ffffff;
+  text-shadow: none;
+  color: #0000ff;
+}
+.sidebar-collapse > .nav > li > a {
+  padding: 15px 10px;
+}
+.sidebar-collapse > .nav > li {
+  border-bottom: 1px solid rgba(240, 240, 240, 1) !important;
+}
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+  background: #f3f3f3;
+  outline: 0;
+}
+.nav-second-level > li:last-child > a:after,
+.nav-third-level > li:last-child > a:after {
+  height: 50%;
+}
+.nav-third-level > li > a:after,
+.nav-third-level > li > a:before {
+  left: 40px;
+}
+.navbar-side {
+  border: none;
+  background-color: #202020;
+}
+.navbar-inverse {
+  background-color: #f3f3f3;
+  border-color: #d3d3d3;
+}
+
+.navbar-default {
+  border: 0px solid #dddddd;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #b40101;
+}
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.nav > li > a > i {
+  margin-right: 10px;
+}
+.navbar-inverse .navbar-brand {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 900;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 900;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #8b7bff;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #8b7bff;
+}
+.adjust-nav {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar-toggle {
+  background-color: #8b7bff;
+}
+#edit {
+  color: royalblue;
+}
+
+#del {
+  color: red;
+}
+
+/*==============================================
+    LOGIN STYLES     
+    =============================================*/
+#body {
+  background-color: seashell;
+}
+
+#contenedor {
+  margin-top: 10%;
+  border: 2px solid rgba(245, 137, 13, 0.979);
+  max-width: 30%;
+  height: 40rem;
+  border-color: #c0c0c0;
+  background-color: #c0c0c0;
+  border-radius: 2%;
+}
+
+.cabecera {
+  background-color: black;
+}
+
+#menu::after {
+  position: absolute;
+  transform: translate3d(0px, 42px, 0px);
+  top: 0px;
+  left: 0px;
+  will-change: transform;
+}
+
+.a-actual {
+  background-color: blue;
+  border-radius: 15%;
+  border: blue solid 1px;
+}
+
+.a-menu {
+  color: blue;
+}
+.text-1 {
+  color: cornsilk;
+}
+nav {
+  background-color: black;
+}
+
+.formulario {
+  background-color: rgb(192, 192, 192);
+}
+
+/* FIN login */
+
+/*==============================================
+    PANEL DE ADMINISTRACION STYLES     
+    =============================================*/
+
+.bg-color-blue {
+  background-color: #9a86eb;
+  color: #fff;
+}
+
+.no-boder {
+  border: 1px solid #f3f3f3;
+}
+.back-footer-blue {
+  background-color: #7479e6;
+  border-top: 0px solid #fff;
+}
+
+/*==============================================
+    NUEVO CLIENTE STYLES   
+    =============================================*/
+
+.form-nuevo-cliente {
+  padding: 8rem;
+}
+
+.ajustar-boton {
+  margin-left: 90%;
+  border-radius: 5px !important;
+}
+
+/*==============================================
+    BOOTSTRAP STYLE CHANGES     
+    =============================================*/
+.nav-tabs > li > a {
+  -webkit-border-radius: 0px 0px 0px 0px;
+  -moz-border-radius: 0px 0px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.panel-group .panel {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+.panel {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+.panel-heading {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.btn {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+.progress {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+.ancho100 {
+  width: 100%;
+  padding: 2rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  font-size: 17px;
+  font-family: cursive;
+  text-align: center;
+  color: #2a2f3bb3;
+}
+
+.contenedor-tabla {
+  width: 100%;
+}
+.contenedor-usuarios {
+  padding-left: 3rem;
+}
+
+.usuarios-buscar {
+  display: flex;
+  justify-content: space-between;
+}
+.barra-buscar {
+  padding: 2rem;
+}
+.rol-derecha {
+  margin: auto;
+}
+
+.btn-verusuarios {
+  font-family: monospace;
+  font-weight: 500;
+  margin-left: 219%;
+  margin-top: 2rem;
+}
+
+.datos-user-act {
+  font-family: auto;
+  text-align: justify;
+  margin-left: 6%;
+}
+
+.botones-edi-elim {
+  margin-left: 6%;
+}
+
+.color-datos-act {
+  color: #3ea0f6;
+}
+.botones-newUser {
+  display: flex;
+  width: 59%;
+  justify-content: space-between;
+  margin: 2rem 0 0 41%;
+  font-weight: 500;
+  font-family: monospace;
+}
+.r {
+  border-radius: 5px;
+}
+
+/*==============================================
+    MEDIA QUERIES     
+    =============================================*/
+
+@media (min-width: 768px) {
+  #page-wrapper {
+    margin: 0 0 0 260px;
+    padding: 15px 30px;
+    min-height: 1200px;
+  }
+
+  .navbar-side {
+    z-index: 1;
+    position: absolute;
+    width: 260px;
+  }
+
+  .navbar {
+    border-radius: 0px;
+  }
+}
+
+.multiple {
+  background-color: #00ff844d;
+  max-width: 85%;
+}
+
+.escojer-user {
+  height: 25rem !important;
+  border-style: none;
+}
+.listas-eq-us {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 5rem;
+}
+/* Scrollbar */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.44, rgb(122, 153, 217)),
+    color-stop(0.72, rgb(73, 125, 189)),
+    color-stop(0.86, rgb(28, 58, 148))
+  );
+}
+
+.mostrar-datos {
+  display: flex;
+}
+.titulos-ticket {
+  color: #477957;
+  font-size: x-large;
+  font-family: cursive;
+}
+.grd {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-left: 11rem;
+}
+.centrar {
+  text-align: center;
+  display: block;
+}
+
+option.select-hr {
+  border-bottom: 2px dotted #12ca71;
+}
+
+.cntr-btn {
+  display: block;
+  margin-top: 4rem;
+  width: 50%;
+}
+
+/*PANEL DE ESTILOS DEL INPUT TYPE FILE */
+.uploadManual {
+  width: 50px;
+}
+
+/*PANEL DE ESTILOS DEL INPUT TYPE FILE FIN*/
+
+/*PANEL DE ESTILOS DEL DOWNLOADS FILE */
+.btn-downloads {
+  width: 150px;
+  height: 150px;
+  margin-left: 5%;
+  font-size: 100px;
+  color: #b40101;
+}
+.font-downloads {
+  font-size: 25px;
+}
+/*PANEL DE ESTILOS DEL DOWNLOADS FILE FIN*/
+/*  MEDIA QUERYS RESPONSIVE */
+
+@media (max-width: 720px) {
+  .cuadros-responsive {
+    display: block;
+  }
+}
+
+.not-modal {
+  padding: 1rem;
+  width: 39.7rem;
+  border-color: #fdfdfd00;
+  border-radius: 9px;
+  right: auto !important;
+}
+
+.head-not-modal {
+  padding: 1rem;
+}
+.separacion-not {
+  padding-bottom: 1rem;
+  
+}
+
+.letras-not{
+  font-family: 'Open Sans';
+  text-align: center;
+  font-size: large;
+  /* padding-bottom: 3rem; */
+  color: #50b3b3;
+}

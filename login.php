@@ -1,4 +1,5 @@
 <?php
+require("assets/php/db.php");
 session_start();
 ?>
 <!doctype html>

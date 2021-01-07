@@ -6,7 +6,7 @@ $DB = 'q97lt3kpsw5wk8oo';
 
 $conexion= mysqli_connect($host,$user,$password,$DB);
 
-// if (isset($conexion)){
-//     echo "conectada";
-// }
+if (isset($conexion)){
+    echo "<h1>CONECTADAAAA!! HIJUEPUTA!</h1>";
+}
 ?>

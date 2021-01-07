@@ -1,8 +1,8 @@
 <?php
-$host = 'bow2b2l0x3hxxcrkvqpo-mysql.services.clever-cloud.com';
-$user = 'un2z6tkjgfvvwwqc';
-$password = 'nsrOtYaYFeHGw7aq9yUL';
-$DB = 'bow2b2l0x3hxxcrkvqpo';
+$host = 'z3iruaadbwo0iyfp.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+$user = 'eaw2k8l0yb94rdka';
+$password = 'cbxb373p9v36sa2m';
+$DB = 'q97lt3kpsw5wk8oo';
 
 $conexion= mysqli_connect($host,$user,$password,$DB);
 

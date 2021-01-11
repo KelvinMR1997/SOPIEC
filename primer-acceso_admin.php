@@ -159,7 +159,8 @@ require("assets/php/db.php");
             });
         });
     </script>
-
+    <!-- Este script evita el envio del formulario por tecla enter -->
+    <script src="assets/js/noEnterForm.js"></script>
 
 </body>
 

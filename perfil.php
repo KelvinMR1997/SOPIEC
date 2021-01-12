@@ -358,6 +358,8 @@ include("assets/modelos/vpa_admin.php");
     <script src="assets/js/validaciones.js"></script>
     <script src="assets/js/custom.js"></script>
 
+    <!-- Este script evita el envio del formulario por tecla enter -->
+    <script src="assets/js/noEnterForm.js"></script>
 
     <!-- Mostrar pass-->
     <script type="text/javascript">
